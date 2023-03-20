@@ -523,3 +523,20 @@ header button {
     margin-bottom: 2rem;
 }
 
+/******Tablet********/
+@media screen and (min-width: 750px) {
+    #getStarted h5 {
+        font-style: 18px;
+    }
+    #getStarted h3 {
+        font-size: 35px;
+    }
+    #getStarted h2 {
+        font-size: 75px;
+    }
+    #getStarted button {
+        padding: 2rem 4rem;
+    }
+    
+}
+
