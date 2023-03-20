@@ -69,6 +69,10 @@ button {
     text-align: center;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .rowGap1 {
     row-gap: 1rem;
 }
@@ -484,3 +488,38 @@ header button {
         width: 50%;
     }
 }
+
+/******Get Started********/
+#getStarted {
+    background-color: #9792e4;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: white;
+}
+
+#getStarted h5 {
+    color: lightgray;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+#getStarted h3 {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+#getStarted h2 {
+    color: #fdc15f;
+    font-size: 44px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#getStarted button {
+    padding: 1rem 3rem;
+    color: #9792e4;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
