@@ -392,6 +392,7 @@ header button {
     margin-top: 2rem;
 }
 
+/********tablet******/
 @media screen and (min-width: 750px) {
     .square {
         width: calc(100% / 2 - 1rem);
@@ -440,6 +441,7 @@ header button {
 
 .citation {
     font-size: 22px;
+    font-weight: 700;
     margin-top: 2rem;
 }
 
@@ -452,4 +454,33 @@ header button {
 
 .positionAbsolute > i {
     font-size: 50px;
+}
+
+/******Tablet********/
+@media screen and (min-width: 750px) {
+    .textAbout {
+        width: 60%;
+        padding-right: 1rem;
+    }
+    .fotoAbout {
+        width: 40%;
+        padding-left: 1rem;
+    }
+    #aboutUs h2 {
+        font-size: 55px;
+    }
+    #aboutUs p {
+        line-height: 45px;
+    }
+    #about1 {
+        width: 80%;
+    }
+    
+}
+
+/*******Desktop**********/
+@media screen and (min-width: 1140px) {
+    #about1 {
+        width: 50%;
+    }
 }
