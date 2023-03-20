@@ -15,6 +15,10 @@
     justify-content: space-between;
 }
 
+.justofyContentC {
+    justify-content: center;
+}
+
 .alignItemsC {
     align-items: center;
 }
@@ -92,7 +96,7 @@ header button {
 
 /*******Main********/
 
-/****Demo******/
+/****Demo (First Section)******/
 .telefono > img {
     width: 100%;
     display: block;
@@ -168,4 +172,60 @@ header button {
     .downloadApp {
         width: 50%;
     }
+}
+
+/****Development (second Section)******/
+#development {
+    background-color: #9792e4;
+    margin-top: 4rem;
+}
+
+.fotoPlanning1 {
+    width: 100%;
+}
+
+.fotoPlanning2 {
+    width: 100%;
+}
+
+.fotoPlanning1 > img {
+    width: 100%;
+}
+
+.fotoPlanning2 > img {
+    width: 100%;
+}
+
+#development h3 {
+    color: white;
+    font-size: 24px;
+    padding: 4rem 0;
+}
+
+.planning p {
+    color: white;
+}
+
+.appDevelopment {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.appDevelopment h4 {
+    font-weight: 900;
+    padding: 1rem 0;
+}
+
+.appDevelopment p {
+    color: black;
+    font-style: oblique;
+    margin-bottom: 1rem;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #9792e4;
+    margin: 0 auto;
 }
