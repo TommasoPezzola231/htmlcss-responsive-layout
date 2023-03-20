@@ -45,6 +45,22 @@ button {
     border-radius: 20px;
 }
 
+.positionAbsolute {
+    position: absolute;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+.top0 {
+    top: 0;
+}
+
+.right0 {
+    right: 0;
+}
+
 .flexWrap {
     flex-wrap: wrap;
 }
@@ -395,4 +411,45 @@ header button {
     .square {
         width: calc((100% / 3) - 1rem);
     }
+}
+
+/*******AboutUs********/
+#aboutUs {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#aboutUs h2 {
+    color: #9792e4;
+    font-size: 35px;
+    padding-bottom: 3rem;
+}
+
+#aboutUs p {
+    margin-bottom: 2rem;
+}
+
+.fotoAbout {
+    color: #9792e4;
+}
+
+#about1 {
+    background-image: url(../img/about.jpg);
+    margin: 0;
+}
+
+.citation {
+    font-size: 22px;
+    margin-top: 2rem;
+}
+
+.fotoAbout > button {
+    background-color: #9792e4;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+}
+
+.positionAbsolute > i {
+    font-size: 50px;
 }
