@@ -335,3 +335,42 @@ header button {
         width: 30%;
     }
 }
+
+/******Benefits*******/
+#benefits {
+    background-color: #9792e4;
+    padding-bottom: 4rem;
+}
+
+#benefits > .container > h2 {
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.square {
+    width: 100%;
+    background-color: white;
+    color: gray;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.number {
+    color: #9792e4;
+    font-size: 35px;
+}
+
+.square > h3 {
+    color: #9792e4;
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.square > button {
+    background-color: #9792e4;
+    padding: 0.5rem 3rem;
+    margin-top: 2rem;
+}
