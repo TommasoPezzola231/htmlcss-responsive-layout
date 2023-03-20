@@ -73,6 +73,11 @@ button {
     text-decoration: underline;
 }
 
+.underline2 {
+    text-decoration: underline;
+    color: #9792e4;
+}
+
 .rowGap1 {
     row-gap: 1rem;
 }
@@ -538,5 +543,17 @@ header button {
         padding: 2rem 4rem;
     }
     
+}
+
+/*******Footer******/
+footer {
+    background-color: #333333;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+footer p {
+    margin-bottom: 2rem;
 }
 
