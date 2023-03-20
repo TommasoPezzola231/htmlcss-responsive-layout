@@ -360,6 +360,7 @@ header button {
 .number {
     color: #9792e4;
     font-size: 35px;
+    font-weight: 700;
 }
 
 .square > h3 {
@@ -373,4 +374,25 @@ header button {
     background-color: #9792e4;
     padding: 0.5rem 3rem;
     margin-top: 2rem;
+}
+
+@media screen and (min-width: 750px) {
+    .square {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    #benefits > .container > h2 {
+        font-size: 35px;
+    }
+    
+    .number {
+        font-size: 55px;
+    }
+}
+
+/*******Desktop**********/
+@media screen and (min-width: 1140px) {
+    .square {
+        width: calc((100% / 3) - 1rem);
+    }
 }
