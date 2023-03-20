@@ -30,7 +30,7 @@ button {
     border-style: none;
 }
 
-.card {
+.card1,.card2 {
     width: 100%;
     background-color: #b5ddff;
     border-radius: 20px;
@@ -92,6 +92,7 @@ header button {
 
 /*******Main********/
 
+/****Demo******/
 .telefono > img {
     width: 100%;
     display: block;
@@ -115,8 +116,56 @@ header button {
     padding: 0.5rem 2rem;
 }
 
-.card > i {
+.card2 > i {
     color: #0084fd;
     font-size: 70px;
     padding-top: 1rem;
+}
+
+/*******Tablet**********/
+@media screen and (min-width: 750px) {
+    .card1 {
+        width: calc((100% / 3) * 2 - 1rem);
+    }
+
+    .card2 {
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .rowGap1 {
+       gap: 1rem; 
+    }
+    
+    .telefono {
+        width: 50%;
+    }
+}
+
+/*******Desktop**********/
+@media screen and (min-width: 1140px) {
+    .card1 {
+        width: calc((100% / 3) * 2 - 1rem);
+    }
+
+    .card2 {
+        width: calc(100% / 3 - 1rem);
+    }
+    
+    .rowGap1 {
+        gap: 1rem; 
+    }
+
+    .telefono {
+        width: 50%;
+        display: flex;
+    }
+
+    .telefono > img {
+        width: 50%;
+        align-self: end;
+    }
+
+    .downloadApp {
+        width: 50%;
+    }
 }
