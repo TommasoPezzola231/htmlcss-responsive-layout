@@ -270,8 +270,12 @@ header button {
 }
 
 /*****Testimonials******/
+#testimonials {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 #testimonials h5 {
-    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -287,7 +291,7 @@ header button {
 .profilo {
     width: 100%;
     background-color: #9792e4;
-    border-radius: 20px;
+    border-radius: 40px;
     color: white;
     padding: 1rem;
 }
@@ -311,4 +315,23 @@ header button {
 
 #roberts {
     background-image: url(../img/testimonial3.jpg);
+}
+
+/*******Tablet**********/
+@media screen and (min-width: 750px) {
+    .profilo {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*******Desktop**********/
+@media screen and (min-width: 1140px) {
+    .profilo {
+        display: flex;
+    }
+
+    .fotoProfilo {
+        width: 30%;
+    }
 }
