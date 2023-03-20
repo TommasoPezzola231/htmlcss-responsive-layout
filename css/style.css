@@ -30,11 +30,30 @@ button {
     border-style: none;
 }
 
+.card {
+    width: 100%;
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.textAlignC {
+    text-align: center;
+}
+
+.rowGap1 {
+    row-gap: 1rem;
+}
+
 /*******Header********/
 header{
     background-color: #0084fd;
     color: white;
     padding: 1rem 0;
+    margin-bottom: 2rem;
 }
 
 header .menu {
@@ -69,4 +88,35 @@ header button {
         display: none;
     }
     
+}
+
+/*******Main********/
+
+.telefono > img {
+    width: 100%;
+    display: block;
+}
+
+#demo h3 {
+    color: #0084fd;
+    font-size: 20px;
+    padding: 2rem;
+}
+
+#demo p {
+    color: gray;
+    padding: 0 2rem;
+}
+
+#demo button {
+    margin: 2rem 0;
+    background-color: #0084fd;
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.card > i {
+    color: #0084fd;
+    font-size: 70px;
+    padding-top: 1rem;
 }
