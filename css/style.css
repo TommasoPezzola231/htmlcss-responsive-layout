@@ -24,6 +24,12 @@
     margin: 0 auto;
 }
 
+button {
+    padding: 0.5rem;
+    border-radius: 50px;
+    border-style: none;
+}
+
 /*******Header********/
 header{
     background-color: #0084fd;
@@ -31,6 +37,36 @@ header{
     padding: 1rem 0;
 }
 
-header menu {
+header .menu {
     display: none;
+    width: 40%;
+}
+
+header button {
+    color: black;
+    background-color: white;
+}
+
+/*******Tablet**********/
+@media screen and (min-width: 750px) {
+    .container{
+        max-width: 750px;
+    }
+    
+}
+
+/*******Desktop**********/
+@media screen and (min-width: 1140px) {
+    .container{
+        max-width: 1140px;
+    }
+
+    header .menu{
+        display: block;
+    }
+
+    .hamburger{
+        display: none;
+    }
+    
 }
