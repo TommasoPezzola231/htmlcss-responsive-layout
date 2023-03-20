@@ -82,6 +82,11 @@ button {
     row-gap: 1rem;
 }
 
+.maxWidt400 {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 /*******Header********/
 header{
     background-color: #0084fd;
