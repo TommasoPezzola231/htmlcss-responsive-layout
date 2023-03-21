@@ -241,6 +241,10 @@ header button {
     width: 100%;
 }
 
+#development > div {
+    align-items: end;
+}
+
 #development h3 {
     color: white;
     font-size: 24px;
@@ -290,7 +294,6 @@ header button {
 
     .appDevelopment {
         width: calc(100% / 2 - 1rem);
-        align-content: end;
     }
 
     .fotoPlanning2 {
